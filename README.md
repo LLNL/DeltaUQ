@@ -75,5 +75,5 @@ For other applications that use neural network anchoring:
 ## Predicting Generalization Gap in Deep Models
 To run our experiments on using DeltaUQ for predicting domain generalization, follow the instructions provided in `./predicting_gen/` -->
 ## License
-This code is distributed under the terms of the GPL-2.0 license. All new contributions must be made under this license. LLNL-CODE-844746 SPDX-License-Identifier: GPL-2.0
+This code is distributed under the terms of the MIT license. All new contributions must be made under this license. LLNL-CODE-844746 SPDX-License-Identifier: MIT
 
