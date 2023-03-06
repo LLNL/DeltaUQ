@@ -35,8 +35,10 @@ loss = criterion(targets,pred)
 During inference, you can simply pass an additional flag to produce uncertainties:
 
 ```
-## (NOTE: n_anchors must be > 1)
-pred,unc = net_with_uq(inputs,n_anchors=5,return_std=True) 
+
+test_inputs = torch.randn(64,3,32,32)
+## (IMPORTANT: *** num test samples > n_anchors > 1 ***)
+pred,unc = net_with_uq(test_inputs,n_anchors=5,return_std=True) 
 ```
 
 
