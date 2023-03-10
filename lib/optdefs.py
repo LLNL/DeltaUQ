@@ -1,7 +1,7 @@
 # Copyright 2022 Lawrence Livermore National Security, LLC and other
 # Authors: Rushil Anirudh, Jayaraman J. Thiagarajan. See the top-level COPYRIGHT file for details.
 #
-# SPDX-License-Identifier: GPL-2.0
+# SPDX-License-Identifier: MIT
 
 from torch.utils.data import TensorDataset, random_split
 import torch
