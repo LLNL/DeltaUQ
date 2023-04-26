@@ -51,7 +51,7 @@ This codebase was developed and tested using
 + matplotlib `3.4.3`
 + numpy `1.20.3`
 + scikit_learn `1.1.3`
-+ torch `1.12.0`
++ PyTorch `1.13.1`
 
 ## Citation
 
