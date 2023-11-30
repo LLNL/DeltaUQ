@@ -42,7 +42,7 @@ pred,unc = net_with_uq(test_inputs,n_anchors=5,return_std=True)
 ```
 
 
-We provide wrappers for CNNs and MLPs that modify the base class provided in [`deltaUQ.py`](./classification/deltaUQ.py). 
+We provide wrappers for CNNs and MLPs that modify the base class provided in [`deltaUQ.py`](./lib/deltaUQ.py). 
 
 ## Dependencies
 This codebase was developed and tested using
